@@ -1,24 +1,23 @@
-import { Fragment } from 'react';
 import './App.css';
-import Header from './Header';
-import Nav from './Nav';
-import Main from './Main';
-import Footer from './Footer';
+import Header from './Components/Header';
+import Nav from './Components/Nav';
+import Main from './Components/Main';
+import Footer from './Components/Footer';
 
 function App() {
   return (
-    <Fragment>
+    <div className="container">
       <head>
-      <meta name="description" content="your text goes here"/>
-      <meta name="og:title" content=""/>
-      <meta name="og:description" content=""/>
+      <meta name="description" content="Little Lemon Website"/>
+      <meta name="og:title" content="Little Lemon"/>
+      <meta name="og:description" content="Restaurant with delicious foods"/>
       <meta name="og:image" content=""/>
       </head>
-      <Header/>
       <Nav/>
+      <Header/>
       <Main/>
       <Footer/>
-    </Fragment>
+    </div>
   );
 }
 

@@ -1,0 +1,9 @@
+.main_section{
+    display: flex;
+    height: 600px;
+    background-color: rgb(194, 0, 0);
+}
+
+.buttom_dis{
+    color: black;
+}
